@@ -9,7 +9,7 @@ let level = 0
 
 document.addEventListener('keypress', function(){
   if(started == false){
-    console.log("Game started")
+    // console.log("Game started")
     started = true
 
     levelUp()
@@ -39,7 +39,7 @@ function levelUp(){
   let randColor = btns[randIdx]
   let randbtn = document.querySelector(`.${randColor}`)
   gameSeq.push(randColor)
-  console.log(gameSeq)
+//   console.log(gameSeq)
   gameFlash(randbtn);
 }
 
